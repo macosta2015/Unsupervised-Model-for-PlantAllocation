@@ -1,1 +1,1 @@
-# TrabajoEnEquipi
+# TrabajoEnEquipo
