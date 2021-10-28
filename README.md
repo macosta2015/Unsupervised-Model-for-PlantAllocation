@@ -2,7 +2,7 @@
 
 ## Description of the communcation protocols
 To store our csv. we have planned to use AWS. 
-AWS will the communicate with Google colab. 
+AWS will then communicate with Google colab. 
 In google colab we will be able to use the virtual computer to process our data and train our model. 
 Goodle colab will then help us transfer our resuls. 
 
