@@ -1,6 +1,6 @@
 # GitHub
 
-## Description of the communcation protocols. 
+## Description of the communcation protocols
 
 
 ## Branches 
