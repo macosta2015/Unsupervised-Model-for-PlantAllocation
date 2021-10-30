@@ -6,8 +6,8 @@
 The project is about make some clustering job for Mexicos flora. The main objective to work with this data, is to get different groups based on some features (altitude, latitude, family, color, type) in order to have a distinct plant classification, beyond the ones that already exists based in the ecosystem biodiversity.
 With the model we are developing, we expect to help the scientists of the UNAM (Universidad Nacional Autónoma de México) herbarium to predict the allocation of different plants based on some of their main characteristics and some environmental data. Besides there are some ecosystem classifications, with this project we are going to create groups in order to obtain different locations based on the variables we choose, this new groups, will help in the future to make predictions about plant allocation and even (with other models), find relationships and correlations between this flora data and fauna information.
 For the development of the project, we are working with a database created inside the herbarium with Mexicos plant recollection data. By now, we are only working with the plant datapoints, which conform a database with about 173,000 rows with 63 columns. Next, an example of the data we are going to work with:
-IMAGE1
-IMAGE2
+![image](Resources/Imagen1.jpg)
+![image](Resources/Imagen2.jpg)
 
 We expect to use some of the tools learned in order to solve some questions and create the corresponding deliverables.
 From the database, we are going to create some queries in order to answer the following:
