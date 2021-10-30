@@ -21,7 +21,7 @@ From the database, we are going to create some queries in order to answer the fo
 2.	How many genus are?
 3.	How many species are?
 4.	Which families are the most diverse? Understanding the more diverse as the ones with more genus
-5.	
+
 With this information we are going to create a heatmap for the species quantity, in this map we will also include environmental layers as soil, precipitation and weather, just to mention a few. 
 
 ## Description of the communcation protocols
