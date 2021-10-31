@@ -3,7 +3,8 @@
 
 ## Project Presentation
 
-The project is about make some clustering job for Mexico's flora. The main objective to work with this data is to get different groups based on some features (altitude, latitude, family, color, type) in order to have a distinct plant classification, beyond the ones that already exist based in the ecosystem biodiversity.
+In this project we'll do a **clustering job for Mexico's flora.** by using an unsupervised machine learning model. 
+The main objective is to get different groups based on some features (altitude, latitude, family, color, type) in order to have a distinct plant classification, beyond the ones that already exist based in the ecosystem biodiversity.
 
 With the model we are developing, we expect to help UNAM's herbarium scientists (Universidad Nacional Autónoma de México) predict the allocation of different plants based on some of their main characteristics and some environmental data. Besides there are some ecosystem classifications, with this project we are going to create groups in order to obtain different locations based on the variables we choose, this new groups, will help to make predictions about plant allocation and, with other models, find relationships and correlations between this flora data and fauna information.
 
