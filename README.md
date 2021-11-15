@@ -38,4 +38,4 @@ Jupyter notebook will then help us plott our data so that it can be easily read.
 
 ## Database 
 
-The complete database includes 173,923 rows and 63 columns. For this first approach, a sample was taken, generating a new database of aprox 1000 rows and 10 columns. Because we are working with an unsupervised model in order to solve a classification issue, we tried to have a balanced database getting proportional chunks of information, using the family and order columns as main filters.
+The complete database includes 173,923 rows and 63 columns. Because we are working with an unsupervised model in order to solve a classification issue, we tried to have a balanced database getting proportional chunks of information, using the family and order columns as main filters.
