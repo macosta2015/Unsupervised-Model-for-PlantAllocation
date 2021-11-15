@@ -1,4 +1,8 @@
+# Google slide presentation
+https://docs.google.com/presentation/d/1G5hDVTpE9ugxiBCjYR5RUd0tgay0cveqQv3zAP6ep_s/edit#slide=id.p1
+
 # GitHub
+
 
 
 ## Project Presentation
