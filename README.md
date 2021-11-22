@@ -80,7 +80,7 @@ The model was programmed in Python.
 * K-means method was used to get the ideal number of clusters for the model.
 <img width="669" alt="Captura de Pantalla 2021-11-21 a la(s) 17 44 55" src="https://user-images.githubusercontent.com/85467925/142783803-0778426c-ee35-4326-ad90-830c80d1d684.png">
 
-* Lastly predictions were generated with the model.
+* Lastly, predictions were generated with the model.
 <img width="510" alt="Captura de Pantalla 2021-11-21 a la(s) 17 43 38" src="https://user-images.githubusercontent.com/85467925/142783775-feda6faa-ad82-4605-acb7-b9db8bbcb1bd.png">
 
 
