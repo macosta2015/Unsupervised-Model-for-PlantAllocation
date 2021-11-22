@@ -43,11 +43,15 @@ The project was selected by looking into possible areas where a machine learning
 
 ### 2. Exploratory analysis of the data
 This phase included the following steps which were performed in both Python and Rstudio.
+
 * Statistical analysis of the data
 <img width="609" alt="Captura de Pantalla 2021-11-21 a la(s) 18 21 15" src="https://user-images.githubusercontent.com/85467925/142785067-642e4854-d06d-4da4-a525-2b97bc2010fa.png">
+
 * Exploration of trends
+
 * Normality tests for each variable
 <img width="885" alt="Captura de Pantalla 2021-11-21 a la(s) 18 23 10" src="https://user-images.githubusercontent.com/85467925/142785154-c1d907c6-9282-4891-8fa3-3cf48d68f57c.png">
+
 * Correlation tests for every variable
 <img width="1045" alt="Captura de Pantalla 2021-11-21 a la(s) 18 20 53" src="https://user-images.githubusercontent.com/85467925/142785070-568bbd82-3828-451e-b93d-90b721b18138.png">
 
