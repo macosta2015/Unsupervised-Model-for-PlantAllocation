@@ -88,4 +88,4 @@ The model was programmed in Python.
 To evaluate the model's performance at clustering, we will create a twin sample and compare the clustering results from both samples. 
 
 ### 6. Data interpretation, results and conclusions.
-Once we confirm the ability of the model to cluster information correctly, we will turn the numeric variables into categorical variables and add the new column ("class") to our dataframe, which will allow us to draw specific conclusions about the data.
+Once we confirm the ability of the model to cluster information correctly, we'll turn the numeric variables into categorical variables and add the new column ("class") to our dataframe, which will allow us to draw specific conclusions about the data.
