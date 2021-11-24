@@ -1,7 +1,7 @@
 
 ## Google slide presentation
 
-# SUMMARIZE PRESENTATION
+# SUMMARIZED PRESENTATION
 https://docs.google.com/presentation/d/19Q4eNH8t_CsoAeFHzM2Bzrm_UIttvSNt5JRDloUD7WU/edit?usp=sharing
 
 # ORIGINAL PRESENTATION
