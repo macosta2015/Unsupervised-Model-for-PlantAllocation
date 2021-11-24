@@ -85,10 +85,9 @@ The model was programmed in Python.
 
 * Lastly, predictions were generated with the model.
 <img width="510" alt="Captura de Pantalla 2021-11-21 a la(s) 17 43 38" src="https://user-images.githubusercontent.com/85467925/142783775-feda6faa-ad82-4605-acb7-b9db8bbcb1bd.png">
+ 
 
+### 5. Data interpretation, results and conclusions.
+Once we confirm the ability of the model to cluster information correctly, numeric variables were turned into categorical variables and the new column ("class") was added to a new dataframe, which allows us to draw specific conclusions about the data, like how the clusters are related to specific variables. Look at the following image as an example: 
+<img width="1085" alt="Captura de Pantalla 2021-11-24 a la(s) 15 18 55" src="https://user-images.githubusercontent.com/85467925/143325756-d7ca5d8d-6e4c-460c-a756-efaa10f4d16d.png">
 
-### 5. Evaluation of the model's performance
-To evaluate the model's performance at clustering, we will create a twin sample and compare the clustering results from both samples. 
-
-### 6. Data interpretation, results and conclusions.
-Once we confirm the ability of the model to cluster information correctly, we'll turn the numeric variables into categorical variables and add the new column ("class") to our dataframe, which will allow us to draw specific conclusions about the data.
