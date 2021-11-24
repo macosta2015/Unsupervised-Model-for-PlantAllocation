@@ -1,8 +1,11 @@
 
 ## Google slide presentation
-https://docs.google.com/presentation/d/1G5hDVTpE9ugxiBCjYR5RUd0tgay0cveqQv3zAP6ep_s/edit#slide=id.p1 
 
-https://docs.google.com/presentation/d/e/2PACX-1vSMWcpSLPs3DvifkYxo_QMtNgjV1X_ulI8UXft8mcvgTa_NDxXXBOMSV_sQLU0er_Hzfj1YNv5Z2Cpe/pub?start=false&loop=false&delayms=3000
+# SUMMARIZE PRESENTATION
+https://docs.google.com/presentation/d/19Q4eNH8t_CsoAeFHzM2Bzrm_UIttvSNt5JRDloUD7WU/edit?usp=sharing
+
+# ORIGINAL PRESENTATION
+https://docs.google.com/presentation/d/1G5hDVTpE9ugxiBCjYR5RUd0tgay0cveqQv3zAP6ep_s/edit#slide=id.p1 
 
 ## Project Presentation
 In this project we'll do a **clustering job for Mexico's flora** by creating an unsupervised machine learning model. 
