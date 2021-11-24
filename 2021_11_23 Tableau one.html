@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<!-- saved from url=(0088)https://public.tableau.com/app/profile/mario.a.acosta/viz/PLAN_DATASET/class?publish=yes -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript" src="./2021_11_23 Tableau one_files/35f2b5d0eb"></script><script src="./2021_11_23 Tableau one_files/nr-spa-1173.min.js"></script><script type="text/javascript" async="" src="./2021_11_23 Tableau one_files/analytics.js"></script><script async="" src="./2021_11_23 Tableau one_files/gtm.js"></script><script src="./2021_11_23 Tableau one_files/gtm(1).js" type="text/javascript"></script><script type="text/javascript">addGTMLibrary&&"function"==typeof addGTMLibrary&&addGTMLibrary("GTM-WP98PN")</script><link rel="icon" href="https://public.tableau.com/app/favicon.ico"><script src="./2021_11_23 Tableau one_files/newrelic.js" type="text/javascript"></script><script type="text/javascript">addNewRelicPlugin&&"function"==typeof addNewRelicPlugin&&addNewRelicPlugin("35f2b5d0eb","482479497")</script><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="referrer" content="origin-when-cross-origin"><link href="./2021_11_23 Tableau one_files/2.df1c6120.chunk.css" rel="stylesheet"><link href="./2021_11_23 Tableau one_files/main.69c4ea1b.chunk.css" rel="stylesheet"><link rel="stylesheet" type="text/css" href="./2021_11_23 Tableau one_files/4.3cdd1eef.chunk.css"><script charset="utf-8" src="./2021_11_23 Tableau one_files/4.a9fc44ec.chunk.js"></script><link rel="stylesheet" type="text/css" href="./2021_11_23 Tableau one_files/3.a16a614d.chunk.css"><script charset="utf-8" src="./2021_11_23 Tableau one_files/3.88580bca.chunk.js"></script><style type="text/css">.__react_component_tooltip {
+  border-radius: 3px;
+  display: inline-block;
+  font-size: 13px;
+  left: -999em;
+  opacity: 0;
+  padding: 8px 21px;
+  position: fixed;
+  pointer-events: none;
+  transition: opacity 0.3s ease-out;
+  top: -999em;
+  visibility: hidden;
+  z-index: 999;
+}
+.__react_component_tooltip.allow_hover, .__react_component_tooltip.allow_click {
+  pointer-events: auto;
+}
+.__react_component_tooltip::before, .__react_component_tooltip::after {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+.__react_component_tooltip.show {
+  opacity: 0.9;
+  margin-top: 0;
+  margin-left: 0;
+  visibility: visible;
+}
+.__react_component_tooltip.place-top::before {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  bottom: -8px;
+  left: 50%;
+  margin-left: -10px;
+}
+.__react_component_tooltip.place-bottom::before {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  top: -8px;
+  left: 50%;
+  margin-left: -10px;
+}
+.__react_component_tooltip.place-left::before {
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  right: -8px;
+  top: 50%;
+  margin-top: -5px;
+}
+.__react_component_tooltip.place-right::before {
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  left: -8px;
+  top: 50%;
+  margin-top: -5px;
+}
+.__react_component_tooltip .multi-line {
+  display: block;
+  padding: 2px 0;
+  text-align: center;
+}</style><script charset="utf-8" src="./2021_11_23 Tableau one_files/9.20599c86.chunk.js"></script><title>PLAN_DATASET | Tableau Public</title><link rel="canonical" href="https://public.tableau.com/app/profile/mario.a.acosta/viz/PLAN_DATASET/class" data-rh="true"><meta name="description" content="PLAN_DATASET" data-rh="true"><meta name="robots" content="index" data-rh="true"><meta property="og:image:width" content="787" data-rh="true"><meta property="og:image:height" content="485" data-rh="true"><meta property="og:title" content="PLAN_DATASET" data-rh="true"><meta property="og:image" content="https://public.tableau.com/static/images/PL/PLAN_DATASET/class/4_3_hd.png" data-rh="true"><meta property="og:description" content="PLAN_DATASET" data-rh="true"><meta property="og:url" content="https://public.tableau.com/app/profile/mario.a.acosta/viz/PLAN_DATASET/class" data-rh="true"><meta property="og:site_name" content="Tableau Public" data-rh="true"><meta name="twitter:card" content="summary_large_image" data-rh="true"><meta name="twitter:site" content="@tableaupublic" data-rh="true"><meta name="twitter:title" content="PLAN_DATASET" data-rh="true"><meta name="twitter:description" content="PLAN_DATASET" data-rh="true"><meta name="twitter:image" content="https://public.tableau.com/static/images/PL/PLAN_DATASET/class/4_3_hd.png" data-rh="true"></head><body data-new-gr-c-s-check-loaded="14.1039.0" data-gr-ext-installed=""><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KWJLRPD" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><noscript>You need to enable JavaScript to run this app.</noscript><script src="./2021_11_23 Tableau one_files/polyfill.min.js"></script><div id="root"><div class="app_app__2gMRR"><header class="Header_header__1v0yI"><div class="Header_navBar__obylT"><div class="Header_left__1k2WD"><button class="Header_menuButton__3klE9" type="button" tabindex="0" aria-label="Open navigation menu" aria-haspopup="true" aria-expanded="false"><i aria-hidden="true"></i></button><a href="https://public.tableau.com/" class="Header_menuTitle__qnuV-" location="//public.tableau.com/"><img class="Header_logo__3T0lc" alt="Logo" src="data:image/png;base64,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"></a></div><div class="Header_right__3m7KF"><div class="Header_horizontal__22V8i Header_menu__Zy7KP"><a class="Header_menuLink__q-HUb" location="/discover" data-testid="Header-menuLink-discover" href="https://public.tableau.com/app/discover">Discover</a><a href="https://public.tableau.com/en-us/s/blog" class="Header_menuLink__q-HUb" location="//public.tableau.com/en-us/s/blog" data-testid="Header-menuLink-blog">Blog</a><a href="https://public.tableau.com/en-us/s/resources" class="Header_menuLink__q-HUb" location="//public.tableau.com/en-us/s/resources" data-testid="Header-menuLink-resources">Resources</a><a href="https://public.tableau.com/en-us/s/about" class="Header_menuLink__q-HUb" location="//public.tableau.com/en-us/s/about" data-testid="Header-menuLink-about">About</a><div role="button" class="Header_userAvatarButton__3qPas" aria-label="Toggle user options menu" tabindex="0" aria-haspopup="true" aria-expanded="false"><img class="Avatar_userAvatar__ag2vt" src="./2021_11_23 Tableau one_files/03ed605785706e97ffa610fa3f0a9e75.png" alt="mario.a.acosta"></div></div><a href="https://public.tableau.com/en-us/search/all/" location="//public.tableau.com/en-us/search/all/" aria-label="Go to search"><i class="Header_searchIcon__28uRn" aria-hidden="true"></i></a></div></div></header><div class="Toastify"></div><div class="app_content__3xKT4"><div class="VizHomeHeader_homeHeaderContainer__2BW9u"><div class="VizHomeHeader_homeHeader__3DOTH"><div class="VizHomeHeader_title__3K6bp"><h1>PLAN_DATASET</h1> by <a location="/profile/mario.a.acosta" data-testid="VizHomeHeader-titleLink" href="https://public.tableau.com/app/profile/mario.a.acosta">Mario A Acosta</a></div><div class="VizHomeHeader_vizControlBar__2xVIV"><button class="Button_tile__1ao8z" type="button" aria-label="Edit" data-tip="Edit" data-for="vizhome-web-edit-tooltip" aria-disabled="false" currentitem="false"><i id="webEditAuthorIcon" data-testid="webEditAuthorIcon" class="Button_webEditAuthorIcon__BEVuh" aria-hidden="true"></i></button><div class="__react_component_tooltip t31918e5e-36b9-47b8-96c8-fb2889cbbf90 place-bottom type-dark" id="vizhome-web-edit-tooltip" data-id="tooltip"><style>
+  	.t31918e5e-36b9-47b8-96c8-fb2889cbbf90 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.t31918e5e-36b9-47b8-96c8-fb2889cbbf90.place-top {
+        margin-top: -10px;
+    }
+    .t31918e5e-36b9-47b8-96c8-fb2889cbbf90.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .t31918e5e-36b9-47b8-96c8-fb2889cbbf90.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .t31918e5e-36b9-47b8-96c8-fb2889cbbf90.place-bottom {
+        margin-top: 10px;
+    }
+    .t31918e5e-36b9-47b8-96c8-fb2889cbbf90.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .t31918e5e-36b9-47b8-96c8-fb2889cbbf90.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .t31918e5e-36b9-47b8-96c8-fb2889cbbf90.place-left {
+        margin-left: -10px;
+    }
+    .t31918e5e-36b9-47b8-96c8-fb2889cbbf90.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .t31918e5e-36b9-47b8-96c8-fb2889cbbf90.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .t31918e5e-36b9-47b8-96c8-fb2889cbbf90.place-right {
+        margin-left: 10px;
+    }
+    .t31918e5e-36b9-47b8-96c8-fb2889cbbf90.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .t31918e5e-36b9-47b8-96c8-fb2889cbbf90.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style></div><button type="button" data-tip="Add Favorite" aria-describedby="favorite-button" data-for="favorite-button" aria-label="Favorite button" class="Button_tile__1ao8z" tabindex="0" currentitem="false"><i class="Favorite_favoriteUnselectedIcon__3T1Gi button_button__3fdJW"></i></button><div class="__react_component_tooltip t718986bb-171a-4123-8d6b-268dec8bd19e place-bottom type-dark" id="favorite-button" data-id="tooltip"><style>
+  	.t718986bb-171a-4123-8d6b-268dec8bd19e {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.t718986bb-171a-4123-8d6b-268dec8bd19e.place-top {
+        margin-top: -10px;
+    }
+    .t718986bb-171a-4123-8d6b-268dec8bd19e.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .t718986bb-171a-4123-8d6b-268dec8bd19e.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .t718986bb-171a-4123-8d6b-268dec8bd19e.place-bottom {
+        margin-top: 10px;
+    }
+    .t718986bb-171a-4123-8d6b-268dec8bd19e.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .t718986bb-171a-4123-8d6b-268dec8bd19e.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .t718986bb-171a-4123-8d6b-268dec8bd19e.place-left {
+        margin-left: -10px;
+    }
+    .t718986bb-171a-4123-8d6b-268dec8bd19e.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .t718986bb-171a-4123-8d6b-268dec8bd19e.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .t718986bb-171a-4123-8d6b-268dec8bd19e.place-right {
+        margin-left: 10px;
+    }
+    .t718986bb-171a-4123-8d6b-268dec8bd19e.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .t718986bb-171a-4123-8d6b-268dec8bd19e.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style></div><button type="button" data-tip="Share" aria-labelledby="vizhome-share-tooltip" data-for="vizhome-share-tooltip" class="Button_tile__1ao8z" tabindex="0" currentitem="false"><i id="shareIcon" data-testid="shareIcon" class="Button_shareIcon__3mUtp" aria-hidden="true"></i></button><div class="__react_component_tooltip t2720f906-95c1-4fd3-8bb5-c12892bdb61e place-bottom type-dark" id="vizhome-share-tooltip" data-id="tooltip"><style>
+  	.t2720f906-95c1-4fd3-8bb5-c12892bdb61e {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.t2720f906-95c1-4fd3-8bb5-c12892bdb61e.place-top {
+        margin-top: -10px;
+    }
+    .t2720f906-95c1-4fd3-8bb5-c12892bdb61e.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .t2720f906-95c1-4fd3-8bb5-c12892bdb61e.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .t2720f906-95c1-4fd3-8bb5-c12892bdb61e.place-bottom {
+        margin-top: 10px;
+    }
+    .t2720f906-95c1-4fd3-8bb5-c12892bdb61e.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .t2720f906-95c1-4fd3-8bb5-c12892bdb61e.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .t2720f906-95c1-4fd3-8bb5-c12892bdb61e.place-left {
+        margin-left: -10px;
+    }
+    .t2720f906-95c1-4fd3-8bb5-c12892bdb61e.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .t2720f906-95c1-4fd3-8bb5-c12892bdb61e.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .t2720f906-95c1-4fd3-8bb5-c12892bdb61e.place-right {
+        margin-left: 10px;
+    }
+    .t2720f906-95c1-4fd3-8bb5-c12892bdb61e.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .t2720f906-95c1-4fd3-8bb5-c12892bdb61e.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style></div><button type="button" data-tip="Download" aria-labelledby="vizhome-download-tooltip" data-for="vizhome-download-tooltip" class="Button_tile__1ao8z" tabindex="0" aria-disabled="false" currentitem="false"><i id="downloadIcon" data-testid="downloadIcon" class="Button_downloadIcon__2xEXI" aria-hidden="true"></i></button><div class="__react_component_tooltip ta08aae55-5d27-407f-bb84-7fdaf56ca4d4 place-bottom type-dark" id="vizhome-download-tooltip" data-id="tooltip"><style>
+  	.ta08aae55-5d27-407f-bb84-7fdaf56ca4d4 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.ta08aae55-5d27-407f-bb84-7fdaf56ca4d4.place-top {
+        margin-top: -10px;
+    }
+    .ta08aae55-5d27-407f-bb84-7fdaf56ca4d4.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .ta08aae55-5d27-407f-bb84-7fdaf56ca4d4.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .ta08aae55-5d27-407f-bb84-7fdaf56ca4d4.place-bottom {
+        margin-top: 10px;
+    }
+    .ta08aae55-5d27-407f-bb84-7fdaf56ca4d4.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .ta08aae55-5d27-407f-bb84-7fdaf56ca4d4.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .ta08aae55-5d27-407f-bb84-7fdaf56ca4d4.place-left {
+        margin-left: -10px;
+    }
+    .ta08aae55-5d27-407f-bb84-7fdaf56ca4d4.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .ta08aae55-5d27-407f-bb84-7fdaf56ca4d4.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .ta08aae55-5d27-407f-bb84-7fdaf56ca4d4.place-right {
+        margin-left: 10px;
+    }
+    .ta08aae55-5d27-407f-bb84-7fdaf56ca4d4.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .ta08aae55-5d27-407f-bb84-7fdaf56ca4d4.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style></div><a href="https://public.tableau.com/en-us/s/nominate-a-viz" location="//public.tableau.com/en-us/s/nominate-a-viz" class="Button_tile__1ao8z Button_nominateVizLink__3vaPR" aria-label="Nominate" data-tip="Nominate" data-for="vizhome-nominate-viz-tooltip" target="_blank" currentitem="false"><i class="Button_nominateVizIcon__3xgMN" aria-hidden="true"></i></a><div class="__react_component_tooltip t22caecd1-5a30-4201-a462-816e12a1c5a6 place-bottom type-dark" id="vizhome-nominate-viz-tooltip" data-id="tooltip"><style>
+  	.t22caecd1-5a30-4201-a462-816e12a1c5a6 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.t22caecd1-5a30-4201-a462-816e12a1c5a6.place-top {
+        margin-top: -10px;
+    }
+    .t22caecd1-5a30-4201-a462-816e12a1c5a6.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .t22caecd1-5a30-4201-a462-816e12a1c5a6.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .t22caecd1-5a30-4201-a462-816e12a1c5a6.place-bottom {
+        margin-top: 10px;
+    }
+    .t22caecd1-5a30-4201-a462-816e12a1c5a6.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .t22caecd1-5a30-4201-a462-816e12a1c5a6.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .t22caecd1-5a30-4201-a462-816e12a1c5a6.place-left {
+        margin-left: -10px;
+    }
+    .t22caecd1-5a30-4201-a462-816e12a1c5a6.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .t22caecd1-5a30-4201-a462-816e12a1c5a6.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .t22caecd1-5a30-4201-a462-816e12a1c5a6.place-right {
+        margin-left: 10px;
+    }
+    .t22caecd1-5a30-4201-a462-816e12a1c5a6.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .t22caecd1-5a30-4201-a462-816e12a1c5a6.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style></div><button type="button" data-tip="Settings" aria-labelledby="vizhome-settings-tooltip" data-for="vizhome-settings-tooltip" class="Button_tile__1ao8z" tabindex="0" currentitem="false"><i id="settingsIcon" data-testid="settingsIcon" class="Button_settingsIcon__3-Rpo" aria-hidden="true"></i></button><div class="__react_component_tooltip tf2ae0561-9e4e-4dc5-bf70-b916026f37e8 place-bottom type-dark" id="vizhome-settings-tooltip" data-id="tooltip"><style>
+  	.tf2ae0561-9e4e-4dc5-bf70-b916026f37e8 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.tf2ae0561-9e4e-4dc5-bf70-b916026f37e8.place-top {
+        margin-top: -10px;
+    }
+    .tf2ae0561-9e4e-4dc5-bf70-b916026f37e8.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .tf2ae0561-9e4e-4dc5-bf70-b916026f37e8.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .tf2ae0561-9e4e-4dc5-bf70-b916026f37e8.place-bottom {
+        margin-top: 10px;
+    }
+    .tf2ae0561-9e4e-4dc5-bf70-b916026f37e8.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .tf2ae0561-9e4e-4dc5-bf70-b916026f37e8.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .tf2ae0561-9e4e-4dc5-bf70-b916026f37e8.place-left {
+        margin-left: -10px;
+    }
+    .tf2ae0561-9e4e-4dc5-bf70-b916026f37e8.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .tf2ae0561-9e4e-4dc5-bf70-b916026f37e8.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .tf2ae0561-9e4e-4dc5-bf70-b916026f37e8.place-right {
+        margin-left: 10px;
+    }
+    .tf2ae0561-9e4e-4dc5-bf70-b916026f37e8.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .tf2ae0561-9e4e-4dc5-bf70-b916026f37e8.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style></div></div><div class="VizHomeHeader_mobileVizControlBar__1AIUc"><button type="button" title="Expand" class="Button_tile__1ao8z" tabindex="0"><i aria-hidden="true" data-testid="expandIcon" class="Button_expandIcon__Fbq6p"></i></button></div></div></div><div class="VizContainer_container__3QhV_"><div class="TableauJSApiViz_embeddedVizWrapper__3XT9O"><iframe frameborder="0" allowtransparency="true" allowfullscreen="true" title="Data Visualization" marginheight="0" marginwidth="0" scrolling="no" style="display: block; width: 1751px; height: 888px; visibility: visible;" src="./2021_11_23 Tableau one_files/class.html"></iframe></div></div><div class="VizDetails_container__3TdOP"><h2><span class="VizDetails_title__39RVo">Details </span><button class="VizDetails_editDetailsButton__3EcD7" type="button" aria-label="Edit Details" data-tip="Edit Details" data-for="vizhome-edit-details-tooltip" currentitem="false"><i data-testid="vizhome-edit-details-icon" aria-hidden="true"></i></button><div class="__react_component_tooltip t4ea86954-1efd-4f53-9f62-98a79d8f78a1 place-bottom type-dark" id="vizhome-edit-details-tooltip" data-id="tooltip"><style>
+  	.t4ea86954-1efd-4f53-9f62-98a79d8f78a1 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.t4ea86954-1efd-4f53-9f62-98a79d8f78a1.place-top {
+        margin-top: -10px;
+    }
+    .t4ea86954-1efd-4f53-9f62-98a79d8f78a1.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .t4ea86954-1efd-4f53-9f62-98a79d8f78a1.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .t4ea86954-1efd-4f53-9f62-98a79d8f78a1.place-bottom {
+        margin-top: 10px;
+    }
+    .t4ea86954-1efd-4f53-9f62-98a79d8f78a1.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .t4ea86954-1efd-4f53-9f62-98a79d8f78a1.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .t4ea86954-1efd-4f53-9f62-98a79d8f78a1.place-left {
+        margin-left: -10px;
+    }
+    .t4ea86954-1efd-4f53-9f62-98a79d8f78a1.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .t4ea86954-1efd-4f53-9f62-98a79d8f78a1.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .t4ea86954-1efd-4f53-9f62-98a79d8f78a1.place-right {
+        margin-left: 10px;
+    }
+    .t4ea86954-1efd-4f53-9f62-98a79d8f78a1.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .t4ea86954-1efd-4f53-9f62-98a79d8f78a1.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style></div></h2><div class="VizDetails_stats__33gYV"><div class="VizDetails_vizStats__2YjNd"><button class="Favorite_favoriteCount__3LuNz" data-testid="favorite-button" type="button" aria-checked="false" role="checkbox" tabindex="0" data-tip="Add Favorite" aria-label="Add Favorite" data-for="favoriteIcon-tooltip-PLAN_DATASET" currentitem="false"><i class="Favorite_favoriteUnselectedIcon__3T1Gi button_button__3fdJW"></i>0</button><div class="__react_component_tooltip tf2f6c5bc-bb43-4aee-afab-a778e76b23d9 place-bottom type-dark" id="favoriteIcon-tooltip-PLAN_DATASET" data-id="tooltip"><style>
+  	.tf2f6c5bc-bb43-4aee-afab-a778e76b23d9 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.tf2f6c5bc-bb43-4aee-afab-a778e76b23d9.place-top {
+        margin-top: -10px;
+    }
+    .tf2f6c5bc-bb43-4aee-afab-a778e76b23d9.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .tf2f6c5bc-bb43-4aee-afab-a778e76b23d9.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .tf2f6c5bc-bb43-4aee-afab-a778e76b23d9.place-bottom {
+        margin-top: 10px;
+    }
+    .tf2f6c5bc-bb43-4aee-afab-a778e76b23d9.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .tf2f6c5bc-bb43-4aee-afab-a778e76b23d9.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .tf2f6c5bc-bb43-4aee-afab-a778e76b23d9.place-left {
+        margin-left: -10px;
+    }
+    .tf2f6c5bc-bb43-4aee-afab-a778e76b23d9.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .tf2f6c5bc-bb43-4aee-afab-a778e76b23d9.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .tf2f6c5bc-bb43-4aee-afab-a778e76b23d9.place-right {
+        margin-left: 10px;
+    }
+    .tf2f6c5bc-bb43-4aee-afab-a778e76b23d9.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .tf2f6c5bc-bb43-4aee-afab-a778e76b23d9.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style></div><span class="ViewCount_viewCount__22KtL" data-tip="0 Views" aria-label="0 Views" data-for="viewCount-tooltip-PLAN_DATASET" tabindex="0" currentitem="false"><i class="ViewCount_viewCountIcon__1kcg4" data-testid="view-count-icon"></i>0</span><div class="__react_component_tooltip t9a20a0c2-64ca-45c3-8fba-ece20a6f85e1 place-bottom type-dark" id="viewCount-tooltip-PLAN_DATASET" data-id="tooltip"><style>
+  	.t9a20a0c2-64ca-45c3-8fba-ece20a6f85e1 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.t9a20a0c2-64ca-45c3-8fba-ece20a6f85e1.place-top {
+        margin-top: -10px;
+    }
+    .t9a20a0c2-64ca-45c3-8fba-ece20a6f85e1.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .t9a20a0c2-64ca-45c3-8fba-ece20a6f85e1.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .t9a20a0c2-64ca-45c3-8fba-ece20a6f85e1.place-bottom {
+        margin-top: 10px;
+    }
+    .t9a20a0c2-64ca-45c3-8fba-ece20a6f85e1.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .t9a20a0c2-64ca-45c3-8fba-ece20a6f85e1.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .t9a20a0c2-64ca-45c3-8fba-ece20a6f85e1.place-left {
+        margin-left: -10px;
+    }
+    .t9a20a0c2-64ca-45c3-8fba-ece20a6f85e1.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .t9a20a0c2-64ca-45c3-8fba-ece20a6f85e1.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .t9a20a0c2-64ca-45c3-8fba-ece20a6f85e1.place-right {
+        margin-left: 10px;
+    }
+    .t9a20a0c2-64ca-45c3-8fba-ece20a6f85e1.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .t9a20a0c2-64ca-45c3-8fba-ece20a6f85e1.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style></div></div><div class="VizDetails_statBlocBreak__16iEp"></div></div><div class="VizDetails_columns__UTvK8"><div class="VizDetails_column__1alGd"><p class="VizDetails_description__ajBWB"> PLAN_DATASET </p><div class="VizDetails_linkRow__2ktbQ"><span><strong>Published:</strong> Nov 22, 2021</span><span><strong>Updated:</strong> Nov 22, 2021</span></div></div><div class="VizDetails_column__1alGd"></div></div></div></div><footer class="Footer_container__188QZ"><div class="Footer_flex__3Ji0d"><div class="Footer_general__32ZmG"><a href="https://www.tableau.com/" location="//www.tableau.com"><img alt="tableau logo" loading="lazy" src="./2021_11_23 Tableau one_files/tableau-logo-transparent-white.png"></a><p>© 2021 Tableau Software, LLC, a Salesforce Company. <br>All Rights Reserved.</p></div><div class="Footer_navigation__3miRx"><nav aria-labelledby="products"><h3 id="products">Products</h3><a href="https://www.tableau.com/en-us/products/desktop" class="Footer_link__9_ojg" target="_blank" rel="noopener noreferrer" location="https://www.tableau.com/en-us/products/desktop">Tableau Desktop</a><a href="https://www.tableau.com/en-us/products/server" class="Footer_link__9_ojg" target="_blank" rel="noopener noreferrer" location="https://www.tableau.com/en-us/products/server">Tableau Server</a><a href="https://www.tableau.com/en-us/products/online" class="Footer_link__9_ojg" target="_blank" rel="noopener noreferrer" location="https://www.tableau.com/en-us/products/online">Tableau Online</a><a href="https://www.tableau.com/en-us/products/prep" class="Footer_link__9_ojg" target="_blank" rel="noopener noreferrer" location="https://www.tableau.com/en-us/products/prep">Tableau Prep</a><a href="https://public.tableau.com/s/download" class="Footer_link__9_ojg Footer_publicDownload__2nJLT" location="//public.tableau.com/s/download">Tableau Public <span class="orangeBadge">Free</span></a></nav><nav aria-labelledby="legal"><h3 id="legal">Legal</h3><a href="https://www.tableau.com/en-us/privacy" class="Footer_link__9_ojg" target="_blank" rel="noopener noreferrer" location="https://www.tableau.com/en-us/privacy">Privacy Policy</a><a href="https://public.tableau.com/s/data-policy" class="Footer_link__9_ojg" location="//public.tableau.com/s/data-policy">Data Policy</a><a href="https://www.tableau.com/en-us/tos" class="Footer_link__9_ojg" target="_blank" rel="noopener noreferrer" location="https://www.tableau.com/en-us/tos">Terms of Service</a><a href="https://www.tableau.com/en-us/ip" class="Footer_link__9_ojg" target="_blank" rel="noopener noreferrer" location="https://www.tableau.com/en-us/ip">Patents &amp; IP</a><a href="https://www.tableau.com/en-us/do-not-sell-my-personal-information" class="Footer_link__9_ojg" target="_blank" rel="noopener noreferrer" location="https://www.tableau.com/en-us/do-not-sell-my-personal-information">Do Not Sell My Personal Information</a></nav><nav aria-labelledby="about"><h3 id="about">About</h3><a href="https://public.tableau.com/s/about" class="Footer_link__9_ojg" location="//public.tableau.com/s/about">What is Tableau Public?</a><a href="https://trust.tableau.com/" class="Footer_link__9_ojg" target="_blank" rel="noopener noreferrer" location="https://trust.tableau.com">Current Status</a><a href="https://public.tableau.com/s/faq" class="Footer_link__9_ojg" location="//public.tableau.com/s/faq">FAQ</a><a href="http://careers.tableau.com/" class="Footer_link__9_ojg" target="_blank" rel="noopener noreferrer" location="http://careers.tableau.com">Careers</a><a href="https://public.tableau.com/s/contact-us" class="Footer_link__9_ojg" location="//public.tableau.com/s/contact-us">Contact Us</a></nav></div><div class="Footer_social__1qlfP"><a href="https://www.twitter.com/tableaupublic" target="_blank" rel="noopener noreferrer" location="https://www.twitter.com/tableaupublic"><i class="Footer_socialIconTwitter__2vLZK" role="button" aria-label="Twitter link"></i></a><a href="https://www.facebook.com/TableauPublic" target="_blank" rel="noopener noreferrer" location="https://www.facebook.com/TableauPublic"><i class="Footer_socialIconFacebook__2SPsg" role="button" aria-label="Facebook link"></i></a><a href="https://www.linkedin.com/company/tableau-software" target="_blank" rel="noopener noreferrer" location="https://www.linkedin.com/company/tableau-software"><i class="Footer_socialIconLinkedin__26OWq" role="button" aria-label="Linkedin link"></i></a></div></div><div class="LocaleSwitcher_localeSwitcher__1hBi5"><select aria-label="locale switcher"><option value="de-DE">Deutsch</option><option value="en-GB">English (UK)</option><option value="en-US">English</option><option value="es-ES">Español</option><option value="fr-FR">Français</option><option value="it-IT">Italiano</option><option value="pt-BR">Português</option><option value="ja-JP">日本語</option><option value="ko-KR">한국어</option><option value="zh-CN">简体中文</option><option value="zh-TW">繁體中文</option></select></div></footer></div></div><script>!function(e){function t(t){for(var n,o,u=t[0],i=t[1],f=t[2],l=0,d=[];l<u.length;l++)o=u[l],Object.prototype.hasOwnProperty.call(a,o)&&a[o]&&d.push(a[o][0]),a[o]=0;for(n in i)Object.prototype.hasOwnProperty.call(i,n)&&(e[n]=i[n]);for(s&&s(t);d.length;)d.shift()();return c.push.apply(c,f||[]),r()}function r(){for(var e,t=0;t<c.length;t++){for(var r=c[t],n=!0,o=1;o<r.length;o++){var i=r[o];0!==a[i]&&(n=!1)}n&&(c.splice(t--,1),e=u(u.s=r[0]))}return e}var n={},o={1:0},a={1:0},c=[];function u(t){if(n[t])return n[t].exports;var r=n[t]={i:t,l:!1,exports:{}};return e[t].call(r.exports,r,r.exports,u),r.l=!0,r.exports}u.e=function(e){var t=[];o[e]?t.push(o[e]):0!==o[e]&&{3:1,4:1}[e]&&t.push(o[e]=new Promise((function(t,r){for(var n="static/css/"+({}[e]||e)+"."+{3:"a16a614d",4:"3cdd1eef",5:"31d6cfe0",6:"31d6cfe0",7:"31d6cfe0",8:"31d6cfe0",9:"31d6cfe0",10:"31d6cfe0",11:"31d6cfe0",12:"31d6cfe0"}[e]+".chunk.css",a=u.p+n,c=document.getElementsByTagName("link"),i=0;i<c.length;i++){var f=(s=c[i]).getAttribute("data-href")||s.getAttribute("href");if("stylesheet"===s.rel&&(f===n||f===a))return t()}var l=document.getElementsByTagName("style");for(i=0;i<l.length;i++){var s;if((f=(s=l[i]).getAttribute("data-href"))===n||f===a)return t()}var d=document.createElement("link");d.rel="stylesheet",d.type="text/css",d.onload=t,d.onerror=function(t){var n=t&&t.target&&t.target.src||a,c=new Error("Loading CSS chunk "+e+" failed.\n("+n+")");c.code="CSS_CHUNK_LOAD_FAILED",c.request=n,delete o[e],d.parentNode.removeChild(d),r(c)},d.href=a,document.getElementsByTagName("head")[0].appendChild(d)})).then((function(){o[e]=0})));var r=a[e];if(0!==r)if(r)t.push(r[2]);else{var n=new Promise((function(t,n){r=a[e]=[t,n]}));t.push(r[2]=n);var c,i=document.createElement("script");i.charset="utf-8",i.timeout=120,u.nc&&i.setAttribute("nonce",u.nc),i.src=function(e){return u.p+"static/js/"+({}[e]||e)+"."+{3:"88580bca",4:"a9fc44ec",5:"51f24d12",6:"ad43f0a6",7:"f32538f4",8:"c9956b4e",9:"20599c86",10:"ce3590fc",11:"25d6603c",12:"77ce0040"}[e]+".chunk.js"}(e);var f=new Error;c=function(t){i.onerror=i.onload=null,clearTimeout(l);var r=a[e];if(0!==r){if(r){var n=t&&("load"===t.type?"missing":t.type),o=t&&t.target&&t.target.src;f.message="Loading chunk "+e+" failed.\n("+n+": "+o+")",f.name="ChunkLoadError",f.type=n,f.request=o,r[1](f)}a[e]=void 0}};var l=setTimeout((function(){c({type:"timeout",target:i})}),12e4);i.onerror=i.onload=c,document.head.appendChild(i)}return Promise.all(t)},u.m=e,u.c=n,u.d=function(e,t,r){u.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:r})},u.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},u.t=function(e,t){if(1&t&&(e=u(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.__esModule)return e;var r=Object.create(null);if(u.r(r),Object.defineProperty(r,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var n in e)u.d(r,n,function(t){return e[t]}.bind(null,n));return r},u.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return u.d(t,"a",t),t},u.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},u.p="/app/",u.oe=function(e){throw console.error(e),e};var i=this["webpackJsonppublic.frontend"]=this["webpackJsonppublic.frontend"]||[],f=i.push.bind(i);i.push=t,i=i.slice();for(var l=0;l<i.length;l++)t(i[l]);var s=f;r()}([])</script><script src="./2021_11_23 Tableau one_files/2.45454bd7.chunk.js"></script><script src="./2021_11_23 Tableau one_files/main.58dabbd3.chunk.js"></script><script src="./2021_11_23 Tableau one_files/tableau-2.8.1.min.js" async=""></script></body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>

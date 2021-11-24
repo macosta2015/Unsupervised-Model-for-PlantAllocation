@@ -1,0 +1,2 @@
+(this["webpackJsonppublic.frontend"]=this["webpackJsonppublic.frontend"]||[]).push([[9],{677:function(e){e.exports=JSON.parse('{"ldClientSideId":"5fc695baacf74e09ce48a061"}')}}]);
+//# sourceMappingURL=9.20599c86.chunk.js.map
