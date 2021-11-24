@@ -88,6 +88,6 @@ The model was programmed in Python.
  
 
 ### 5. Data interpretation, results and conclusions.
-Once we confirm the ability of the model to cluster information correctly, numeric variables were turned into categorical variables and the new column ("class") was added to a new dataframe, which allows us to draw specific conclusions about the data, like how the clusters are related to specific variables. Look at the following image as an example: 
+Once the clusters were determined, numeric variables were turned into categorical variables and the new column ("class") was added to a new dataframe, which allows us to draw specific conclusions about the data, like how the clusters are related to specific variables. Look at the following image as an example: 
 <img width="1085" alt="Captura de Pantalla 2021-11-24 a la(s) 15 18 55" src="https://user-images.githubusercontent.com/85467925/143325756-d7ca5d8d-6e4c-460c-a756-efaa10f4d16d.png">
 
