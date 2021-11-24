@@ -1,10 +1,10 @@
 
 ## Google slide presentation
 
-### SUMMARIZED PRESENTATION
+### Summarized presentation
 https://docs.google.com/presentation/d/19Q4eNH8t_CsoAeFHzM2Bzrm_UIttvSNt5JRDloUD7WU/edit?usp=sharing
 
-### ORIGINAL PRESENTATION
+### Original presentation
 https://docs.google.com/presentation/d/1G5hDVTpE9ugxiBCjYR5RUd0tgay0cveqQv3zAP6ep_s/edit#slide=id.p1 
 
 ## Project Presentation
