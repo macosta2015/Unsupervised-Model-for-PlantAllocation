@@ -7,6 +7,11 @@ https://docs.google.com/presentation/d/19Q4eNH8t_CsoAeFHzM2Bzrm_UIttvSNt5JRDloUD
 ### Original presentation
 https://docs.google.com/presentation/d/1G5hDVTpE9ugxiBCjYR5RUd0tgay0cveqQv3zAP6ep_s/edit#slide=id.p1 
 
+### Tableau Sheets
+
+https://public.tableau.com/app/profile/ayesha.carre.o/viz/Interpretacin_data/Clase_Gnero_Familia?publish=yes
+https://public.tableau.com/app/profile/mario.a.acosta/viz/OfficialFinalpresentationPLANT_DATASET/Dashboard1?publish=yes
+
 ## Project Presentation
 In this project we'll do a **clustering job for Mexico's flora** by creating an unsupervised machine learning model. 
 The main objective is to get different groups based on some features (altitude, latitude, family, color, type) in order to have a distinct plant classification, beyond the ones that already exist based in the ecosystem biodiversity.
